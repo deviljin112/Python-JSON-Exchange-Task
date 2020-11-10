@@ -16,10 +16,14 @@ def main():
     choice = input("=> ")
 
     if choice.lower() == "country":
+        # Iterates only through the keys of the dictionary
         for k in exchange_rate["rates"].keys():
+            # Prints the Key = Country Code
             print(k)
     elif choice.lower() == "all data":
+        # Iterates through both Key-Value pairs
         for k, v in exchange_rate["rates"].items():
+            # Prints the Key: Value pair (Country Code: Exchange rate)
             print(f"{k}: {v}")
     else:
         print("That option is unavailable.\nPlease try again!")
