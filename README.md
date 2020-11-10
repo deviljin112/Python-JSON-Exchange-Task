@@ -1,5 +1,11 @@
 # Python-JSON-Exchange-Task
 
+## Requirements
+
+You will need to import the following modules into your project:
+
+- `import json`
+
 ## JSON
 
 Our exchange data is stored in a JSON file. We therefore will need a `get_data` function that will be used to retrive the JSON data and store it in a python dictionary. For that we will be using `open()` function.
